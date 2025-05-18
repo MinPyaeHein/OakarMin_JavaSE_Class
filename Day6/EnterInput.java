@@ -29,5 +29,9 @@ public class EnterInput {
 
         return user;
     }
+    //Get Data for Product
+    //name, price, quantity, description
+    // you have to implement the function for enter this datas from user
+    // and display product function
 
 }
