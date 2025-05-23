@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class EnterInput {
     public static void main(String[] args) {
         User user=getUserData();
+        User user2=getUserData();
         user.display();
+        user2.display();
     }
     public static User getUserData(){
         Scanner sc=new Scanner(System.in);
@@ -18,6 +20,7 @@ public class EnterInput {
         System.out.println("Enter your Password");
         String password=sc.nextLine();
         System.out.println("Enter your address");
+
         String address=sc.nextLine();
 
         User user=new User();
